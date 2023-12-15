@@ -1,0 +1,47 @@
+form {
+    display: flex;
+    background-color: white;
+    height: 5vh;
+    width: 20vw;
+    padding: 1vh;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 4vh;
+}
+
+.search-label {
+    font-size: 2vw;
+    font-family: "Monospace", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+.search-input {
+    border: none;
+    height: 4vh;
+    width: 12vw;
+    font-size: 2vw;
+    margin-left: 0.5vw;
+}
+
+.search-results {
+    background-color: white;
+    height: 80vh;
+    width: 91vw;
+    margin-right: 4vw;
+    padding: 2vw;
+}
+
+.search-box {
+    background-color: #cff4ec;
+    margin-left: -0.4vw;;
+    margin: 20vh -1vw;
+    width: 120vw;
+    height: 80vh;
+    padding: 2vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.search-output {
+    margin-top: 0;
+    font-size: 1.5vw;
+}
